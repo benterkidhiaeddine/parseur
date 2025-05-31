@@ -15,35 +15,38 @@
 
 ---
 
-## 📌 Introduction
+# 📌 Introduction
 
-`parseur` est un petit parseur écrit en Python, capable d'analyser et d'évaluer des expressions arithmétiques et logiques. Il prend en charge les opérateurs comme `+`, `-`, `*`, `/`, ainsi que `and`, `or`, `not`, avec une gestion de la priorité et des parenthèses.
+parseur is a lightweight parser written in Python, capable of analyzing and evaluating arithmetic and logical expressions. It supports operators such as +, -, \*, /, along with logical operators and, or, not, all while correctly handling precedence and parentheses.
 
-Ce projet a été développé dans le cadre d’un TP, dans un but pédagogique pour gagner mieux en maitrise sur la structure des données d'arbre binaires.
+This project was developed as part of a lab assignment, with a pedagogical goal of improving understanding of binary tree data structures.
 
----
+# 🚀 Features
 
-## 🚀 Fonctionalités
+✅ Recursive Descent Parsing
 
-- ✅ Analyse syntaxique récursive (Recursive Descent Parser)
-- ✅ Prise en charge des expressions arithmétiques
-- ✅ Prise en charge des expressions logiques (and, or, not)
-- ✅ Parenthèses et priorité respectée
-- ✅ Gestion d’erreurs de syntaxe
-- ✅ Interprétation et évaluation directe des expressions
+✅ Arithmetic expression support
 
----
+✅ Logical operators: and, or, not
 
-## 📁 Project Structure
+✅ Correct operator precedence and parentheses handling
+
+✅ Syntax error handling
+
+✅ Direct interpretation and evaluation
+
+# 📁 Project Structure
 
 ```sh
 └── parseur/
-    ├── abe.py   # Implémentation d'arbres binaires et leurs interfaces
-    └── parseur.py      # l'implémentation de parseur
+    ├── abe.py   # Binary search Tree Implementation with its interface
+    └── parseur.py      # Parser Implementation
 ```
 
-## 🙏 Dédicaces
+# 🙏 Acknowledgements
 
-- Professeurs de Base de l'informatique en L1 à l'Université Cote d'azur:
-  - Responsable de L1 informatique à valrose : Olivier Baldellon
-  - Kenza Benjelloun.
+- Special thanks to the instructors of the Computer Science fundamentals course at Université Côte d’Azur (L1 Valrose campus):
+
+  - Olivier Baldellon – Head of L1 Computer Science
+
+  - Kenza Benjelloun
